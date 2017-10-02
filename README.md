@@ -3,7 +3,7 @@ The hub for Assembla's [ECVC](https://www.assembla.com/ecvc) enhancements to ope
 
 ## Enhancements
 ### Shelving
-* documentation: ...
+* documentation: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) (in Google Docs)
 * discussion: ...
 * how to try it:
   * Windows: [TortoiseSVN installer](http://example.com/TortoiseSVN-shelve.msi)
