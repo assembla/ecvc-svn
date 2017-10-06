@@ -5,6 +5,9 @@ The hub for Assembla's [ECVC](https://www.assembla.com/ecvc) enhancements to ope
 Shelving means setting your uncommitted changes aside, so that you can work on something else. Shelving is fast and local, like 'git stash' and 'hg shelve' (and unlike Perforce's server-side shelving).
 
 * what it looks like: (cmdline & TSVN screen shots TBD...)
+  * [context menu](tsvn-1-cmenu-shelve.png)
+  * [shelve dialog](tsvn-1-dlg-shelve.png)
+  * [unshelve dialog](tsvn-1-dlg-unshelve.png)
 * how to try it:
   * Windows: [TortoiseSVN installer](http://example.com/TortoiseSVN-shelve.msi)
   * MacOS: [command-line Subversion package](http://example.com/subversion-shelve.pkg)
