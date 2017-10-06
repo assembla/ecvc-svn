@@ -4,6 +4,11 @@ The hub for Assembla's [ECVC](https://www.assembla.com/ecvc) enhancements to ope
 ## Current Project: Shelving
 Shelving means setting your uncommitted changes aside, so that you can work on something else. Shelving is fast and local, like 'git stash' and 'hg shelve' (and unlike Perforce's server-side shelving).
 
+### Current status
+This is the first public preview. It works. It only shelves text changes. See the design doc (linked below) for details.
+
+Please get in touch and tell us: is it already useful enough, or what we must do to make it so?
+
 ### Shelving looks like...
 ![context menu](tsvn-1-cmenu-shelve.png)
 
