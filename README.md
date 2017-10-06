@@ -13,13 +13,17 @@ Shelving means setting your uncommitted changes aside, so that you can work on s
 
 ![command line](shelve-demo-1.png)
 
-* how to try it:
+### Try Shelving...
   * Windows: [TortoiseSVN installer](http://example.com/TortoiseSVN-shelve.msi)
   * MacOS: [command-line Subversion package](http://example.com/subversion-shelve.pkg)
   * Linux ...
-* documentation: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) (in Google Docs)
+  
+### Tell us what you think about it...
 * join the discussion: ...
 * give your feedback: ...
+* documentation: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) (in Google Docs)
+  * includes the rationale and the current limitations and possible extensions
+  * you can add your comments in there too
 
 ## Assembla's Repositories on GitHub
 
