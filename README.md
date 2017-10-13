@@ -19,7 +19,8 @@ Please get in touch and tell us: is it already useful enough, or what we must do
 ![command line](shelve-demo-1.png)
 
 ### Try Shelving...
-  * Windows: [TortoiseSVN installer](http://example.com/TortoiseSVN-shelve.msi)
+  * Windows: (unstable link)
+    [TortoiseSVN-1.9.99.27998-dev-x64-svn-1.10.dev.msi](https://s3.amazonaws.com/assembla-binaries/TortoiseSVN/shelve/jobs/TSVN_shelve/18/TortoiseSVN-1.9.99.27998-dev-x64-svn-1.10.dev.msi)
   * MacOS: [command-line Subversion package](http://example.com/subversion-shelve.pkg)
   * Linux ...
   
