@@ -12,7 +12,7 @@ Please get in touch and tell us: is it already useful enough, or what we must do
 ### Shelving looks like...
 ![context menu](tsvn-1-cmenu-shelve.png)
 
-![shelve dialog](tsvn-1-dlg-shelve.png)
+![shelve dialog](tsvn-2-dlg-shelve.png)
 
 ![unshelve dialog](tsvn-2-dlg-unshelve.png)
 
