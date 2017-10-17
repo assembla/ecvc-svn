@@ -32,7 +32,7 @@ Shelving is a convenient way of creating and applying patches. It is similar in 
 
 The TortoiseSVN graphical interface is briefly described below.
 
-The command-line interface is very similar to [Mercurial Shelving (hg shelve)](https://www.selenic.com/mercurial/hg.1.html#shelve).
+The command-line interface is documented in `svn shelve --help` and `svn unshelve --help`. It is described, and compared with git/hg/bzr/p4, in [Shelving-Checkpointing UI](https://docs.google.com/document/d/1Z0HZfpWRnU0ke2G7H20V0-my_egV_BY4D_aGlfvKuTk/edit#heading=h.wkc757u986cn). It is very similar to [Mercurial Shelving (hg shelve)](https://www.selenic.com/mercurial/hg.1.html#shelve).
 
 The central development doc: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) includes the rationale and the current limitations and possible extensions.
   * you can add your comments in there too
