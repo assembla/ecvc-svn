@@ -26,13 +26,29 @@ Please get in touch and tell us: is it already useful enough, or what we must do
     * Ubuntu ...
     * Debian ...
     * CentOS ...
+
+### Understand Shelving
+Shelving is a convenient way of creating and applying patches. It is similar in concept to 'git stash'.
+
+The TortoiseSVN graphical interface is briefly described below.
+
+The command-line interface is very similar to [Mercurial Shelving (hg shelve)](https://www.selenic.com/mercurial/hg.1.html#shelve).
+
+The central development doc: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) includes the rationale and the current limitations and possible extensions.
+  * you can add your comments in there too
+
+#### Shelving and Unshelving in TortoiseSVN
+The basic flow goes like this:
+* You start with a version-controlled folder or file that contains some local (uncommitted) changes. Right-click; select `TortoiseSVN->Shelve`; enter a name; click *OK*. Subversion makes a patch (like with the `Create Patch` command) and saves the patch into `.svn/shelves/NAME.patch` and reverts those changes from your local files. That is "Shelving" your local changes.
+* Then you might make some other changes, and shelve them with a different name.
+* Then you want to restore the previously shelved changes back into your working files. Select `Unshelve` and select the name of the shelved change, click *OK*, and Subversion applies the patch (like using the `Apply Patch` command) and apparently deletes the patch.
+  * (Actually it does not delete the patch file, it renames it to `NAME.patch.bak`.)
+
+Much of the documentation for [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net/docs/nightly/TortoiseSVN_en/tsvn-dug-patch.html) is relevant.
   
 ### Tell us what you think about it...
 * join the discussion: ...
 * give your feedback: ...
-* documentation: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) (in Google Docs)
-  * includes the rationale and the current limitations and possible extensions
-  * you can add your comments in there too
 
 ## Assembla's Repositories on GitHub
 
