@@ -14,7 +14,7 @@ Please get in touch and tell us: is it already useful enough, or what we must do
 
 ![shelve dialog](tsvn-1-dlg-shelve.png)
 
-![unshelve dialog](tsvn-1-dlg-unshelve.png)
+![unshelve dialog](tsvn-2-dlg-unshelve.png)
 
 ![command line](shelve-demo-1.png)
 
