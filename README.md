@@ -41,8 +41,8 @@ The central development doc: [Shelving and Checkpointing Dev.](https://docs.goog
 The basic flow goes like this:
 * You start with a version-controlled folder or file that contains some local (uncommitted) changes. Right-click; select `TortoiseSVN->Shelve`; enter a name; click *OK*. Subversion makes a patch (like with the `Create Patch` command) and saves the patch into `.svn/shelves/NAME.patch` and reverts those changes from your local files. That is "Shelving" your local changes.
 * Then you might make some other changes, and shelve them with a different name.
-* Then you want to restore the previously shelved changes back into your working files. Select `Unshelve` and select the name of the shelved change, click *OK*, and Subversion applies the patch (like using the `Apply Patch` command) and apparently deletes the patch.
-  * (Actually it does not delete the patch file, it renames it to `NAME.patch.bak`.)
+* Then you want to restore the previously shelved changes back into your working files. Select `Unshelve` and select the name of the shelved change, click *OK*, and Subversion applies the patch (like using the `Apply Patch` command) and removes the patch*.
+  * (* Actually it renames it to `NAME.patch.bak`.)
 
 Much of the documentation for [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net/docs/nightly/TortoiseSVN_en/tsvn-dug-patch.html) is relevant.
   
