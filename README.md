@@ -2,7 +2,7 @@
 The hub for Assembla's [ECVC](https://www.assembla.com/ecvc) enhancements to open-source Subversion software.
 
 ## Current Project: Shelving
-Shelving means setting your uncommitted changes aside, so that you can work on something else. Shelving is fast and local, like 'git stash' and 'hg shelve' (and unlike Perforce's server-side shelving).
+Shelving means setting your uncommitted changes aside, so that you can work on something else. Shelving is fast and local.
 
 ### Current status
 This is the first public preview. It works. It only shelves text changes. See the design doc (linked below) for details.
