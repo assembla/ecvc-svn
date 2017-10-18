@@ -7,7 +7,7 @@ Shelving means setting your uncommitted changes aside, so that you can work on s
 ### Current status
 This is the first public preview. It works. It only shelves text changes. See the design doc (linked below) for details.
 
-Please get in touch and tell us: is it already useful enough, or what we must do to make it so?
+Please get in touch and tell us what you think about it and where we should go next.
 
 ### Shelving looks like...
 ![context menu](tsvn-1-cmenu-shelve.png)
