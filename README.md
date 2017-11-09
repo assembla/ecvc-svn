@@ -21,6 +21,8 @@ Please get in touch and tell us what you think about it and where we should go n
 ### Try Shelving...
 Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linux.
 
+Alternatively you can build your own client from source, from the 'shelve' branch of Subversion or TortoiseSVN, following the normal build procedure of those projects.
+
 ### Understand Shelving
 Shelving is a convenient way of creating and applying patches. It is similar in concept to 'git stash'.
 
