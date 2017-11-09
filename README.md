@@ -19,13 +19,7 @@ Please get in touch and tell us what you think about it and where we should go n
 ![command line](shelve-demo-1.png)
 
 ### Try Shelving...
-  * Windows: (unstable link)
-    [TortoiseSVN-1.9.99.27998-dev-x64-svn-1.10.dev.msi](https://s3.amazonaws.com/assembla-binaries/TortoiseSVN/shelve/jobs/TSVN_shelve/18/TortoiseSVN-1.9.99.27998-dev-x64-svn-1.10.dev.msi)
-  * MacOS: [command-line Subversion package](http://example.com/subversion-shelve.pkg)
-  * Linux:
-    * Ubuntu ...
-    * Debian ...
-    * CentOS ...
+Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linux.
 
 ### Understand Shelving
 Shelving is a convenient way of creating and applying patches. It is similar in concept to 'git stash'.
