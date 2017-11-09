@@ -42,10 +42,6 @@ The basic flow goes like this:
 
 Much of the documentation for [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net/docs/nightly/TortoiseSVN_en/tsvn-dug-patch.html) is relevant.
   
-### Tell us what you think about it...
-* join the discussion: ...
-* give your feedback: ...
-
 ## Assembla's Repositories on GitHub
 
 ### [assembla/subversion](https://github.com/assembla/subversion)
