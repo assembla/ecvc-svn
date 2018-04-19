@@ -4,10 +4,12 @@ The hub for Assembla's [ECVC](https://www.assembla.com/ecvc) enhancements to ope
 ## Current Project: Shelving
 Shelving means setting your uncommitted changes aside, so that you can work on something else. Shelving is a fast, local,  convenient way of creating and applying patches, similar in concept to 'git stash'.
 
-Shelving is available in preview builds of TortoiseSVN and command-line Subversion.
+Shelving is available in [Cornerstone 4](https://cornerstone.assembla.com/) and TortoiseSVN 1.10 and command-line Subversion 1.10.
+
+Checkpointing is available in [Cornerstone 4](https://cornerstone.assembla.com/) and preview builds of TortoiseSVN and command-line Subversion.
 
 ### Current status
-This is the first public preview. It works. It only shelves text changes. See the design doc (linked below) for details.
+The first released version of shelving supports changes in text files only. Support for 'binary' files is in development. See the design doc (linked below) for details.
 
 The central development doc: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) includes the rationale and the current limitations and possible extensions.
   * you can add your comments in there too
@@ -17,7 +19,7 @@ Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linu
 
 -- or --
 
-Build from source, from the 'shelve' branch of Subversion or TortoiseSVN, following the normal build procedure of those projects.
+Build the current development version of Subversion or TortoiseSVN from source, following the normal build procedure of those projects.
 
 ### Shelving in TortoiseSVN
 Start with a version-controlled folder or file that contains some local (uncommitted) changes. Right-click; select `TortoiseSVN->Shelve`.
