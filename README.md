@@ -20,7 +20,7 @@ Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linu
 
 Build the current development version of Subversion or TortoiseSVN from source, following the normal build procedure of those projects.
 
-### Shelving in TortoiseSVN 1.10
+### How to Use Shelving in TortoiseSVN 1.10
 Start with a version-controlled folder or file that contains some local (uncommitted) changes. Right-click; select `TortoiseSVN->Shelve`.
 
 Enter a name; click *OK*. Subversion makes a patch (like with the `Create Patch` command) and saves the patch into `.svn/shelves/NAME.patch` and reverts those changes from your local files. That is Shelving your local changes.
@@ -37,7 +37,7 @@ See also: [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net
 
 ![unshelve dialog](tsvn-2-dlg-unshelve.png)
 
-### Shelving on the Command Line
+### How to Use 'svn shelve' on the Command Line
 
 The command-line interface is documented in `svn shelve --help` and `svn unshelve --help`. For information about the development, and a comparison with git/hg/bzr/p4, see [Shelving Command-Line UI Design](https://cwiki.apache.org/confluence/display/SVN/Shelving+Command-Line+UI+Design).
 
