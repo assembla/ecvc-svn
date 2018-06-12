@@ -9,10 +9,9 @@ Shelving is available in [Cornerstone 4](https://cornerstone.assembla.com/) and 
 Checkpointing is available in [Cornerstone 4](https://cornerstone.assembla.com/) and preview builds of TortoiseSVN and command-line Subversion.
 
 ### Current status
-The first released version of shelving supports changes in text files only. Support for 'binary' files is in development. See the design doc (linked below) for details.
+Shelving released in Svn 1.10 supports changes in text files only. Support for 'binary' files is in development. See the design doc (linked below) for details.
 
-The central development doc: [Shelving and Checkpointing Dev.](https://docs.google.com/document/d/1PVgw0BdPF7v67oxIK7B_Yjmr3p28ojabP5N1PfZTsHk) includes the rationale and the current limitations and possible extensions.
-  * you can add your comments in there too
+From the central Wiki page [Shelving and Checkpointing](https://cwiki.apache.org/confluence/display/SVN/Shelving+and+Checkpointing) you can read about the rationale and the current limitations and possible extensions. You can add your comments in there too.
 
 ### Try Shelving...
 Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linux.
@@ -21,7 +20,7 @@ Go to https://www.assembla.com/subversion to download for Windows, MacOS or Linu
 
 Build the current development version of Subversion or TortoiseSVN from source, following the normal build procedure of those projects.
 
-### Shelving in TortoiseSVN
+### Shelving in TortoiseSVN 1.10
 Start with a version-controlled folder or file that contains some local (uncommitted) changes. Right-click; select `TortoiseSVN->Shelve`.
 
 Enter a name; click *OK*. Subversion makes a patch (like with the `Create Patch` command) and saves the patch into `.svn/shelves/NAME.patch` and reverts those changes from your local files. That is Shelving your local changes.
@@ -40,7 +39,7 @@ See also: [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net
 
 ### Shelving on the Command Line
 
-The command-line interface is documented in `svn shelve --help` and `svn unshelve --help`. It is described, and compared with git/hg/bzr/p4, in [Shelving-Checkpointing UI](https://docs.google.com/document/d/1Z0HZfpWRnU0ke2G7H20V0-my_egV_BY4D_aGlfvKuTk/edit#heading=h.wkc757u986cn).
+The command-line interface is documented in `svn shelve --help` and `svn unshelve --help`. For information about the development, and a comparison with git/hg/bzr/p4, see [Shelving Command-Line UI Design](https://cwiki.apache.org/confluence/display/SVN/Shelving+Command-Line+UI+Design).
 
 ![command line](shelve-demo-1.png)
 
