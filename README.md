@@ -40,15 +40,3 @@ See also: [Creating and Applying Patches in TortoiseSVN](https://tortoisesvn.net
 The command-line interface is documented in `svn shelve --help` and `svn unshelve --help`. For information about the development, and a comparison with git/hg/bzr/p4, see [Shelving Command-Line UI Design](https://cwiki.apache.org/confluence/display/SVN/Shelving+Command-Line+UI+Design).
 
 ![command line](shelve-demo-1.png)
-
-## Assembla's Repositories on GitHub
-
-### [assembla/subversion](https://github.com/assembla/subversion)
-A central point for Assembla's contributions to [Apache Subversion](http://subversion.apache.org)
-  * forked from a read-only [mirror repo](https://github.com/apache/subversion)
-    (not automatically updated)
-
-### [assembla/tsvn](https://github.com/assembla/tsvn)
-A central point for Assembla's contributions to [TortoiseSVN](http://tortoisesvn.net)
-  * imported from the [TortoiseSVN master repo](https://sourceforge.net/p/tortoisesvn/code/)
-    (not automatically updated)
